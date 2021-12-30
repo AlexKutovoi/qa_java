@@ -1,9 +1,9 @@
-import com.example.Feline;
 import org.junit.Assert;
 import org.junit.Test;
 import java.util.List;
 
 public class FelineTest {
+
     @Test
     public void shouldEatMeat() throws Exception {
         Feline feline = new Feline();
@@ -18,9 +18,17 @@ public class FelineTest {
     }
 
     @Test
-    public void shouldGetKittens() {
+    public void shouldGetDefaultKittens() {
         Feline feline = new Feline();
         int kittens = feline.getKittens();
         Assert.assertEquals(1, kittens);
     }
+
+    @Test
+    public void shouldGetFiveKittens() {
+        Feline feline = new Feline();
+        int kittens = feline.getKittens(5);
+        Assert.assertEquals(5, kittens);
+    }
+
 }
