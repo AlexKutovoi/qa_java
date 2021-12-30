@@ -22,7 +22,7 @@ public class LionTest {
     }
 
 @Mock
-Feline mockFeline;
+ Feline mockFeline;
 @Test
 public void shouldGetKittens() throws Exception {
     Lion lion = new Lion(mockFeline, "Самец");
