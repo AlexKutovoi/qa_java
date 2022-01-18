@@ -59,6 +59,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="CatTest" name="shouldGetPredatorFoodMeat" time="0"/>
-  <testcase classname="CatTest" name="shouldGetSoundMeow" time="0"/>
+  <testcase classname="CatTest" name="shouldGetCarnivoreFood" time="0"/>
+  <testcase classname="CatTest" name="shouldGetMeow" time="0"/>
 </testsuite>
